@@ -76,7 +76,7 @@ public class PrimaryController implements Initializable {
                     stage.close();
                 }
             } else {
-                mostrarMensaje("Por favor, ingrese su nombre.");
+                mostrarMensaje("Por favor, ingrese su nombre y apellido.");
             }
         } catch (Exception e) {
             e.printStackTrace();
