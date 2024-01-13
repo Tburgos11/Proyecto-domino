@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="179.0" prefWidth="315.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyecto2p.proyecto_domino.PrimaryController">
+   <children>
+      <Label fx:id="lb_nombre" layoutX="24.0" layoutY="45.0" text="Ingrese su nombre:" />
+      <TextField fx:id="tf_nombre" layoutX="131.0" layoutY="41.0" onInputMethodTextChanged="#continuar" />
+      <Button fx:id="bt_continuar" layoutX="115.0" layoutY="96.0" mnemonicParsing="false" onAction="#continuar" text="Comenzar" />
+   </children>
+</Pane>
