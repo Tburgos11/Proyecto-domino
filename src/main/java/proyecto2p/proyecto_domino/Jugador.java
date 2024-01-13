@@ -13,8 +13,9 @@ import java.util.ArrayList;
 public class Jugador {
 
     private String nombre;
+    
     private ArrayList<Ficha> mano;
-
+//CONSTRUCTOR JUGADOR
     public Jugador(String nombre, ArrayList<Ficha> mano) {
         this.nombre = nombre;
         this.mano = mano;
