@@ -296,7 +296,7 @@ public boolean agregarFichaLinea(Ficha ficha, Jugador jugador) {
                System.out.println(jugadores.get(1).removerFicha(ficha));
                lineaJuego.add(ficha);
                ActualizarLineaJuego(); 
-                System.out.println("todo bien hasta aqui ");
+                System.out.println("Todo bien hasta aqui ");
                return true;
             }else{
                 if(ficha.getLado2()==ObtenerValorInicio()){
