@@ -195,8 +195,8 @@ public class SecondaryController implements Initializable {
       }
       if(jugada==false){
           Alert al = new Alert(Alert.AlertType.INFORMATION);
-          al.setTitle("Ganaste");
-               al.setContentText("Ganaste");
+          al.setTitle("Ganaste!");
+               al.setContentText("Ganaste!");
                al.showAndWait();
                Stage ventana=(Stage) hb_jugador.getScene().getWindow();
                ventana.close();
