@@ -174,7 +174,7 @@ public class SecondaryController implements Initializable {
       if(!jugadores.get(1).getMano().isEmpty()){
       for(Ficha f: jugadores.get(1).getMano()){
          if(f.getLado1()==ObtenerValorFinal()){
-             System.out.println("encontro ficha");
+             System.out.println("Se encontro ficha");
             jugada= agregarFichaLinea(f, jugadores.get(1));
              break;
          }
