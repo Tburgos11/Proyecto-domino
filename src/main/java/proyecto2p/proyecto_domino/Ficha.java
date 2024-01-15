@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class Ficha {
-//ESta clase crea una ficha
+
     private int lado1;
     private int lado2;
 

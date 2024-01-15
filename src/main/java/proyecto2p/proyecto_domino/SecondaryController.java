@@ -174,7 +174,7 @@ public class SecondaryController implements Initializable {
       if(!jugadores.get(1).getMano().isEmpty()){
       for(Ficha f: jugadores.get(1).getMano()){
          if(f.getLado1()==ObtenerValorFinal()){
-             System.out.println("Se encontro ficha");
+             System.out.println("encontro ficha");
             jugada= agregarFichaLinea(f, jugadores.get(1));
              break;
          }
@@ -195,8 +195,8 @@ public class SecondaryController implements Initializable {
       }
       if(jugada==false){
           Alert al = new Alert(Alert.AlertType.INFORMATION);
-          al.setTitle("Ganaste!");
-               al.setContentText("Ganaste!");
+          al.setTitle("Ganaste");
+               al.setContentText("Ganaste");
                al.showAndWait();
                Stage ventana=(Stage) hb_jugador.getScene().getWindow();
                ventana.close();
@@ -296,14 +296,14 @@ public boolean agregarFichaLinea(Ficha ficha, Jugador jugador) {
                System.out.println(jugadores.get(1).removerFicha(ficha));
                lineaJuego.add(ficha);
                ActualizarLineaJuego(); 
-                System.out.println("Todo bien hasta aqui ");
+                System.out.println("todo bein hasta aqui 1");
                return true;
             }else{
                 if(ficha.getLado2()==ObtenerValorInicio()){
                System.out.println(jugadores.get(1).removerFicha(ficha));
                lineaJuego.add(0,ficha);
                ActualizarLineaJuego();  
-                System.out.println("Todo bien hasta aqui");
+                System.out.println("todo bein hasta aqui");
                return true;
                    
                 }
