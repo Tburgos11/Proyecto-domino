@@ -1,5 +1,5 @@
 package proyecto2p.proyecto_domino;
-
+//PRUEBA PARA DISEÑO
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
