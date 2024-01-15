@@ -62,9 +62,9 @@ public class PrimaryController implements Initializable {
                 FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("secondary.fxml"));
                 Parent root = fxmlLoader.load();
 
-                
+                // Obtener el controlador de la interfaz secundaria
                 SecondaryController secondaryController = fxmlLoader.getController();
-                
+                // Establecer los valores necesarios en el controlador de la interfaz secundaria
                 secondaryController.initializeData(jugadores);
 
                 Scene scene = new Scene(root);
