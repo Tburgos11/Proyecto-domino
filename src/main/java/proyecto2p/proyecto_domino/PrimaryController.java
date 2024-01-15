@@ -72,9 +72,8 @@ public class PrimaryController implements Initializable {
                 newStage.setScene(scene);
                 newStage.show();
 
-                if (stage != null) {
-                    stage.close();
-                }
+                Stage currentStage = (Stage) tf_nombre.getScene().getWindow();
+                currentStage.close();
             } else {
                 mostrarMensaje("Por favor, ingrese su nombre.");
             }

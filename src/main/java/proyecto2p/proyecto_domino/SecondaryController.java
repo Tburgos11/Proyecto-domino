@@ -394,7 +394,7 @@ private int obtenerValorDesdeDialogo(TextInputDialog dialog) {
     void Rendirse(ActionEvent event) {
         Alert al = new Alert(Alert.AlertType.INFORMATION);
              al.setTitle("Rendirse");
-               al.setContentText("Perdiste ññ");
+               al.setContentText("Perdiste");
                al.show();
         Stage ventana=(Stage) hb_jugador.getScene().getWindow();
                ventana.close();
